@@ -22,5 +22,12 @@ public class PTra02_10 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+
+		System.out.println (moneyInHand - (coffee*2 + snack*1)*108/100+"円");
+
+
+
+
+
 	}
 }
