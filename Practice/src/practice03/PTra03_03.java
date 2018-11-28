@@ -15,7 +15,7 @@ public class PTra03_03 {
 		System.out.println("数字を入力してください");
 
 		// コマンドプロンプトで入力した文字列が変数lineに代入されます
-		String line = scanner.nextLine();
+		String line = scanner.nextLine ();
 
 		// 文字列を数字に変換して、変数numに代入します
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
@@ -23,7 +23,7 @@ public class PTra03_03 {
 
 		//---------------------ここから本題-----------------------
 		// ★ 入力された値が、3で割り切れる数字か判定する条件式を記述してください
-		if () {
+		if (num%3== 0) {
 			System.out.println("3で割り切れる数字です");
 		} else {
 			System.out.println("3で割り切れない数字です");
