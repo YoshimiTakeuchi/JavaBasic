@@ -58,7 +58,6 @@ public class PTra04_05 {
 				System.out.println("パー！！");
 
 
-
 			}
 
 		}
